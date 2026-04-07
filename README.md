@@ -5,7 +5,7 @@
 I designed this landing page with a strict conversion-first, mobile-optimized approach, stripping away navigation and external links to focus the user entirely on the primary KPI: email signups. The UX utilizes a single-column layout, an above-the-fold call to action, and a frictionless email-only form to minimize cognitive load and eliminate drop-off. Technically, I bypassed heavy JS frameworks in favor of a lightweight HTML/Tailwind stack for optimal Time to Interactive (TTI), while implementing foundational event tracking (`cta_click`, `form_submit`) to ensure full marketing observability from deployment. Beyond the UI, I refined the provided copy to enhance emotional resonance and added targeted trust signals to maximize lead capture credibility.
 
 - Netlify: <https://rj-anderson.netlify.app/> (success page confirms form submission)
-- Github Pages: <https://rj-xpler.github.io/hearing-god-landing/> (form is working via Formspree)
+- GitHub Pages: <https://rj-xpler.github.io/hearing-god-landing/> (form is working via Formspree)
 
 ---
 
@@ -62,4 +62,5 @@ _This section provides a deep-dive justification for every technical and design 
 ### 4. Workflow Acceleration
 
 **Q: How did you approach the 90-minute time constraint?**
+
 **A:** Because I leverage modern deterministic AI tooling for project planning, refining and boilerplate scaffolding (HTML5 structure, Tailwind utility classes), writing the raw code for this page took roughly 10 minutes. As a seasoned engineer, I spent the remaining 80 minutes QA'ing the code, running validation tools such as Lighthouse, and architecting the conversion strategy: implementing GA4 tracking mockups, defining the conversion funnel (the `/success` routing), ensuring zero LCP/CLS degradation, and tuning the direct response copy. This is how modern marketing engineering scales—automate the boilerplate, obsess over the conversion metrics. The final page achieves perfect Lighthouse scores: 100/100 Performance, 100/100 Accessibility, 100/100 Best Practices, and 100/100 SEO, demonstrating end-to-end optimization without compromising speed.
