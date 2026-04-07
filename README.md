@@ -6,7 +6,7 @@ I designed this landing page with a strict conversion-first, mobile-optimized ap
 
 ---
 
-## B. Exhaustive Design Decision Q&A (RCA & CRO Defense)
+## B. Exhaustive Design Decision Q&A (RCA & CRO Approach)
 
 _This section provides a deep-dive justification for every technical and design decision made, backed by Google Analytics 4 (GA4) methodologies and Conversion Rate Optimization (CRO) best principles._
 
