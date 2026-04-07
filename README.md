@@ -1,6 +1,6 @@
 # Design & Technical approach
 
-## A. Executive Summary (The Requested Brief)
+## A. Executive Summary
 
 I designed this landing page with a strict conversion-first, mobile-optimized approach, stripping away navigation and external links to focus the user entirely on the primary KPI: email signups. The UX utilizes a single-column layout, an above-the-fold call to action, and a frictionless email-only form to minimize cognitive load and eliminate drop-off. Technically, I bypassed heavy JS frameworks in favor of a lightweight HTML/Tailwind stack for optimal Time to Interactive (TTI), while implementing foundational event tracking (`cta_click`, `form_submit`) to ensure full marketing observability from deployment. Beyond the UI, I refined the provided copy to enhance emotional resonance and added targeted trust signals to maximize lead capture credibility.
 
